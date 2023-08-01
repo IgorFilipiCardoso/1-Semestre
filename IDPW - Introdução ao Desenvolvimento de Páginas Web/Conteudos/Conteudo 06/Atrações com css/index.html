@@ -1,0 +1,86 @@
+<!--Faça o desenvolvimento de páginas Web de um site que apresente algumas das atrações turísticas de Araraquara e de São Carlos.
+• Deve haver uma página inicial que exiba informações básicas das cidades e, para cada uma, um menu (lista) com o nome das atrações e links que, ao serem clicados permitam que o usuário visualize, em outras páginas, informações e imagens para a atração correspondente.
+• Cada página deve conter um link que permita retornar diretamente para o menu da
+página inicial.
+• Indique, pelo menos, 5 atrações para cada cidade.
+• O tamanho das imagens deve ser padronizado.
+• O tamanho dos textos deve ser proporcional ao nível em que se encontra na página.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atrações com CSS</title>
+        <link rel="icon" href="Imagens/icone.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+        </style>
+ 
+    </head>
+
+    <body>
+
+        <h1> <a id="preto_branco" href="#down"><img src="Imagens/flecha_baixo.webp"  title="Descer para o fim" width="40" alt="Descer para o fim"></a> Atrações turísticas de São Carlos, Araraquara e Ibaté</h1>
+
+        <aside id="sao_carlos">
+            <section id="nomes">
+                <h2>São Carlos</h2>  
+            </section>
+                <img id="aprezentacao" src="Imagens/sao_carlos.jpg" title="São Carlos" height="250" width=" 342">
+
+                <h3>É um município brasileiro localizado no interior do estado de São Paulo, na região Centro-Leste. A cidade de São Carlos é conhecida como a Capital Nacional da Tecnologia por reunir um grande número de empresas de base tecnológica, instituições de ensino e pesquisa, além de uma alta concentração de professores doutores.</h3>
+            <article>
+                <ul>
+                    <li><a href="atracoes_sao_carlos/parque_ecologico.html">Ecológico de São Carlos</a></li>
+                    <li><a href="atracoes_sao_carlos/sesc_sao_carlos.html">SESC São Carlos - Teatro</a></li>
+                    <li><a href="atracoes_sao_carlos/observatorio_sc.html">Observatório Astronômico da USP</a></li>
+                    <li><a href="atracoes_sao_carlos/museu_ciencia.html">Museu Da Ciência De São Carlos Prof. Mario Tolentino</a></li>
+                    <li><a href="atracoes_sao_carlos/fazenda.html">Fazenda Santa Maria do Monjolinho</a></li>
+                </ul>
+            </article>
+        </aside>
+
+        <aside id="araraquara">
+            <section id="nomes">
+                <h2>Araraquara</h2>
+            </section>
+
+            <img id="aprezentacao" src="Imagens/araraquara.jpg" title="Ibaté" height="250" width=" 342">
+
+            <h3>Araraquara é um município no interior do estado de São Paulo, no Brasil. O município é formado pela sede e pelos distritos de Bueno de Andrada e Vila Xavier. Uma das maiores produtoras e exportadoras de suco cítrico do país está em nela. Junto com outras quatro produtoras de municípios vizinhos, responde por 96% da produção brasileira de suco de laranja.</h3>
+            <article>
+                <ul>
+                    <li><a href="atracoers_araquara/museu_ferro.html">Museu Ferroviário Francisco Aureliano de Araújo - Araraquara</a></li>
+                    <li><a href="atracoers_araquara/estadio.html">Estádio Doutor Adhemar de Barros - Fonte Luminosa</a></li>
+                    <li><a href="atracoers_araquara/museu.html">Museu de Arqueologia e Paleontologia (MAPA)</a></li>
+                    <li><a href="atracoers_araquara/parque.html">Parque do Basalto</a></li>
+                    <li><a href="atracoers_araquara/teatro.html">Teatro Municipal de Araraquara</a></li>
+                </ul>
+            </article>
+        </aside>
+        <aside id="ibate">
+            <section id="nomes">
+                <h2>Ibaté</h2>
+            </section>
+            <img  id="aprezentacao" src="Imagens/ibaté.jpg" title="Ibaté" height="250" width=" 342">
+
+            <h3>Ibaté é um município brasileiro do estado de São Paulo. O município de Ibaté, conta com cerca de 290 quilômetros quadrados de superfície total, está situado na região Central do Estado de São Paulo.</h3>
+            <article>
+                <br><br><br><br><br>
+                <ul id="down">
+                    <li><a href="atracoes_ibate/cancan.html">Cachoeira CanCan</a></li>
+                    <li><a href="atracoes_ibate/parrelao.html">Centro Esportivo Parrelão</a></li>
+                    <li><a href="atracoes_ibate/municipal.html">Estádio Municipal Dagnino Rossi</a></li>
+                    <li><a href="atracoes_ibate/praça.html">Praça Central de Ibaté</a></li>
+                    <li><a href="atracoes_ibate/piramide.html">Pirâmide da Mata do Alemão</a></li>
+                </ul>
+            </article>
+        </aside>
+                <a id="preto_branco" href="#"><img src="Imagens/flecha_cima.png" title="Voltar ao topo" width="40" alt="Voltar ao topo"></a> 
+                Feito por: Igor Cardoso
+    </body>
+</html>

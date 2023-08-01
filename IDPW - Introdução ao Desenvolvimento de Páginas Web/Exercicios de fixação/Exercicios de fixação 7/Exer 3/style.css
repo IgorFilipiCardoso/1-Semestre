@@ -1,0 +1,40 @@
+body, html{
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 20px;
+    width: 18%;
+    height: 20vh;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 700px)
+{
+
+    section img{
+        width: 220px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    section img{
+        height: 300px;
+    }
+}

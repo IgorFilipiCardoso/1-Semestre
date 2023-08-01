@@ -1,0 +1,39 @@
+/* Define a fonte e tamanho padrão para a tabela */
+table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Define a cor de fundo e a cor da fonte para a tabela */
+  table, th, td {
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+  }
+  
+  /* Define o estilo da borda para as células da tabela */
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Define a cor de fundo para as linhas alternadas */
+  tr:nth-child(even) {
+    background-color: #2f2f2f;
+  }
+  
+  /* Define a cor de fundo para as linhas quando o cursor passa sobre elas */
+  tr:hover {
+    background-color: #3f3f3f;
+  }
+  
+  /* Define o estilo para o cabeçalho da tabela */
+  th {
+    background-color: #333333;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+  }
+  

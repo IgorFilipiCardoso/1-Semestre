@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu no Yaiba - Login</title>
+    <link rel="stylesheet" type="text/css" href="styles/hamburguer.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/media_1008.css">
+    <link rel="stylesheet" type="text/css" href="styles/media_641.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+</head>
+
+<body background="Imagens/Kimetsu.jpg">
+
+    <header>
+        <nav>
+            <div id="menuToggle">
+                <!--
+                        A fake / hidden checkbox is used as click reciever,
+                        so you can use the :checked selector on it.
+                        -->
+                <input type="checkbox" />
+
+                <!--
+                        Some spans to act as a hamburger.
+                        
+                        They are acting like a real hamburger,
+                        not that McDonalds stuff.
+                        -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                        Too bad the menu has to be inside of the button
+                        but hey, it's pure CSS magic.
+                        -->
+                <ul id="menu">
+                    <article id="blur"></article>
+                    <a href="../index.html">
+                        <li>INICIO</li>
+                    </a>
+                    <a href="anime.html">
+                        <li>ANIME</li>
+                    </a>
+                    <a href="hachiras.html">
+                        <li>HACHIRAS</li>
+                    </a>
+                    <a href="luas.html">
+                        <li>LUAS</li>
+                    </a>
+                </ul>
+
+
+            </div>
+            <ul id="nav_buttons">
+                <li>
+                    <a href="index.html">
+                        <div class="teste">
+                            <p style="background-color: rgba(177, 176, 176, 0.526); border-radius: 10px;">Início</p>
+                            <div style="height: 2px; width: 100%;"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/anime.html">
+                        <div class="teste">
+                            <p>Personagens</p>
+                            <div style="height: 2px; width: 100%;"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/hachiras.html">
+                        <div class="teste">
+                            <p>Hachiras</p>
+                            <div style="height: 2px; width: 100%;"></div>
+                        </div>
+                    </a>
+                <li>
+                    <a href="pages/luas.html">
+                        <div class="teste">
+                            <p>Luas</p>
+                            <div style="height: 2px; width: 100%;"></div>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form action="">
+            <article class="login">
+                <form>
+                    <input type="email" name="nome" placeholder="Email" />
+                    <input type="password" name="senha" placeholder="Senha" />
+                    <a href="index.html"> <button type="button" class="button_form">Entrar</button></a>
+                </form>
+            </article>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Feito por: Igor Cardoso e Cauã Rufino</p>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: #202124;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: max-content;
+}
+
+body img{
+    filter: invert(100%)
+}
+
+h1, span, h2, a, h3{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+ul{
+
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+    border: 5px solid white;
+    margin: 10px;
+    border-radius: 6px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    margin: 20px;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+body section img{
+    border: 3px solid rgb(255, 255, 255);
+    filter: invert(0%);
+    display: flex;
+}
+
+
+
+

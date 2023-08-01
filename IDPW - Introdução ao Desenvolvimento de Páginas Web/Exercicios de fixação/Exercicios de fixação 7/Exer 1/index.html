@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="tudo">
+        <main>
+            <div class="menu">
+                <section class="box">
+                    <form action="http://localhost:8080/login" method="post">
+
+                        <section class="box_form">
+                            <label class="entrar" for="login">
+                                Veículo
+                            </label>
+                            <input type="text" name="marca" required="required" maxlength="10" placeholder="Marca*" id="marca">
+                        </section>
+
+                        <section class="box_form">
+                            <div class="box_check">
+                                <label for="combustivel">
+                                    <legend>Combustível (Se for flex selecione ambas)</legend> 
+                                    <label for="">
+                                        <input type="checkbox" name="combustivel" value="combustivel">Álcool
+                                    </label>
+                                    <label for="">  
+                                        <input type="checkbox" name="combustivel" value="combustivel">Gasolina
+                                    </label>
+                                </label>
+                            </div>
+                        </section>
+                        
+                       
+                        <section class="box_form">
+                            <label for="motor">
+                                <legend>Motor: </legend>
+                                <label for="">
+                                    <input type="radio" required="required" name="motor" id="motor">1.0
+                                </label>
+                                <label for="">
+                                    <input type="radio" required="required" name="motor" id="motor">1.6
+                                </label>
+                                <label for="">
+                                    <input type="radio" required="required" name="motor" id="motor">2.0
+                                </label>
+                            </label>
+                        </section>
+
+
+                        <section class="box_form">
+                            <label for="cambio">
+                                <legend>Câmbio: </legend>
+                                    <input type="text" required="required" name="cambio_list" id="cambio_list" list="cambiolist">
+                                    <datalist id="cambiolist">
+                                        <option>Manual</option>
+                                        <option>Automático</option>
+                                    </datalist>
+                            </label>
+                            
+                        </section>
+
+                        <section class="box_form">
+                            <input type="text" name="descricao" placeholder="Descrição" >
+                        </section>
+
+                        <section class="box_form">
+                            <input type="date" min="1990-01-01" name="datas">
+                        </section>
+
+                        <section class="box_form">
+                            <input type="datetime-local" min="2000-01-01T00:00:00" max="2018-01-01T00:00:00" name="datas">
+                        </section>
+
+                        <section class="box_form">
+                            <input type="week" min="2000-W00" name="datas">
+                        </section>
+
+                        <section class="box_form">
+                            <input type="number" name="numeros" min="00.00" step="00.01" placeholder="Preço unitário (0.00)">
+                        </section>
+
+                        <section class="box_form">
+                            <input type="email" name="email" placeholder="Email" multiple="multiple" >
+                        </section>
+
+                        <section class="botoes">
+                            <input type="submit" value="Enviar" name="enviar">
+                            <input type="reset" value="Limpar" name="limpar">
+                        </section>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
