@@ -54,8 +54,8 @@ void print(int array[], int size)
 void sort(int array[], int size)
 {
 
-    int index, posicao_menor, temp;
-    int busca, i = 0;
+    int index, temp;
+    int i = 0;
     int falso = 0;
 
     while (i != size)
