@@ -16,7 +16,6 @@ struct type_livro
     int emprestado;
     int aluno;
 };
-
 struct type_aluno
 {
     char nome[40];
